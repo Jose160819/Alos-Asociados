@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Otzoy&Asociados | About</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-aller.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/coin-slider.min.js"></script>
+</head>
+<body>
+
+<script>
+$(function(){
+  $(".accordion-titulo").click(function(e){
+           
+        e.preventDefault();
+    
+        var contenido=$(this).next(".accordion-content");
+
+        if(contenido.css("display")=="none"){ //open        
+          contenido.slideDown(250);         
+          $(this).addClass("open");
+        }
+        else{ //close       
+          contenido.slideUp(250);
+          $(this).removeClass("open");  
+        }
+
+      });   
+});
+</script>
+
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo">
+        <h1><a href="index.html"><img src="images/ALOSA.png" alt=""><small>Profesionales del Derecho</small></a></h1>
+      </div>
+      <nav class="navigation">
+      <div class="menu_nav">
+        <ul>
+          <li><a href="index.html"><span>Inicio</span></a></li>
+          <li><a href="support.html"><span>Nuestra Firma</span></a></li>
+          <li><a href="about.html"><span>Áreas de Práctica</span></a></li>
+          <li><a href="contact.html"><span>Contáctanos</span></a></li>
+        </ul>
+      </div> 
+      <div class="clr"></div>
+      <div class="slider">
+        <div id="coin-slider"> <a href="#"><img src="images/Jus.jpg" width="960" height="320" alt="" /> </a> <a href="#"><img src="images/template.jpg" width="960" height="320" alt="" /> </a> <a href="#"><img src="images/diosa.jpg" width="960" height="320" alt="" /> </a> </div>
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="content_resize">
+      <div class="mainbar">
+        <div class="article">
+          <h2 id="about"><strong>Nuestros Servicios</strong></h2>
+          <p class="infopost"></p>
+          <div class="clr"></div>
+          <h2>
+            
+          </h2>
+
+
+        <ul class="sb_menu">
+        <div id="container-main">
+          <h2 id="titulo1"></h2>
+          <div class="accordion-container">
+        <a href="#" class="accordion-titulo"><img src="images/usa.jpg" width="570" height="250" alt="" /><center><i class="fas fa-chevron-down"></i></center><span class="toggle-icon"></span> </a>
+        <div class="accordion-content">
+          <p>En<strong> ALOS&Asociados</strong> nos hemos dedicando a la materia de Derecho de Extranjería e Inmigración, acumulando una gran experiencia en esta rama jurídica.</p>
+          <p>Cuestiones sobre autorizaciones de residencia y trabajo, visados, la efectiva entrada en territorio nacional, la permanencia en territorio de la República de Guatemala, acceso al mercado de trabajo tanto por cuenta propia como por cuenta ajena, implementación de un negocio o empresa, renovaciones de permisos, entre otros., son de vital importancia para disfrutar de una vida de calidad y con proyectos de futuro.</p> 
+          </div>  
+
+    </div>
+          <p>
+            
+          </p>
+          <h2 id="titulo2"></h2>
+        <div class="accordion-container">
+        <a href="#" class="accordion-titulo"><img src="images/se.jpg" width="570" height="250" alt="" /><span class="toggle-icon"></span></a>
+        <div class="accordion-content">
+          <p>Contamos con una amplia experiencia en auditorías internas respecto al cumplimiento de los imperantes requisitos exigidos por el Departamento Control Comercio de Armas Municiones y Explosivos, las Seccionales a nivel nacional y la Superintendencia de Vigilancia y Seguridad Privada.</p>
+          <p>Su empresa contara con un respaldo jurídico integral, que busca evitar investigaciones penales, administrativas o disciplinarias, que pueden derivar en sanciones administrativas como la cancelación de la licencia de funcionamiento o multas pecuniarias por el no cumplimento de los lineamientos legales establecidos, por las actividades que las empresas de vigilancia y seguridad privada desarrollan diariamente en el cumplimiento de su objeto social.</p>
+        </div>
+      </div>
+        
+        <h2 id="titulo3"></h2>
+        <div class="accordion-container">
+        <a href="#" class="accordion-titulo"><img src="images/edificio.jpg" width="570" height="250" alt="" /><span class="toggle-icon"></span></a>
+        <div class="accordion-content">
+          <p>Brindamos asesoría en la constitución de sociedades, corporaciones, conglomerados, y sucursales extranjeras. Acompañamos a nuestros clientes en todas las incidencias de su actuar empresarial, incluyendo su internacionalización y relaciones en el extranjero.</p>
+          <p>Contamos con una amplia experiencia en compra de activos, fusiones, adquisiciones, comercio internacional y en el día a día del manejo corporativo de nuestros clientes, ya sea como asesores externos o participando activamente de las juntas directivas y consejos de las entidades a las cuales representamos.</p>
+        </div>
+      </div>
+        
+        <h2 id="titulo4"></h2>
+        <div class="accordion-container">
+        <a href="#" class="accordion-titulo"><img src="images/texto.jpg" width="570" height="250" alt="" /><span class="toggle-icon"></span></a>
+        <div class="accordion-content">
+          <p id="contexto">Entre las distintas especialidades jurídicas que abarcamos en "ALOS profesionales del Derecho", se encuentra el Derecho Civil. En nuestro despacho podrás encontrar un completo servicio de orientación y asesoramiento en los asuntos derivados de las relaciones personales o patrimoniales, ya sean personas físicas o jurídicas.</p>
+          <p>No obstante, si tuvieras cualquier duda o consulta sobre estos asuntos u otros de carácter jurídico en los que pudiéramos ayudarte, te invitamos a ponerte en contacto con nosotros para que podamos ayudarte en todo lo relacionado en materia de derecho civil.</p>
+        </div>
+      </div>
+    </div>
+         </ul>
+      </div>
+    </div>
+      <div class="sidebar">
+        <div class="searchform">
+          <img src="images/intro.jpg" width="270" height="650" alt="" />
+        </div>
+        <div class="gadget">
+        </div>
+          <h2 class="star"><span>Nosotros</span></h2>
+          <div class="clr"></div>
+          <ul class="ex_menu">
+            <li><a href="http://www.dreamtemplate.com/">Facebook</a><br />
+              Over 6,000+ Premium Web Templates</li>
+            <li><a href="http://www.templatesold.com/">Twitter</a><br />
+              Premium WordPress &amp; Joomla Themes</li>
+            <li><a href="http://www.imhosted.com/">Instagram</a><br />
+              Affordable Web Hosting Provider</li>
+          </ul>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  
+  <div class="fbg">
+    <div class="fbg_resize">
+    <div class="col c1">
+    <h2><span>SOMOS ASESORES</span> EN:</h2>
+    <ul class="fbg_ul">
+      <br>
+        <li><a href="#titulo1">ASESORÍA EN MIGRANTES RADICADOS EN USA</a></li>
+          <li><a href="#titulo2">ASESORÍA EN EMPRESAS DE SEGURIDAD PRIVADA</a></li>
+          <li><a href="#titulo3">ASESORÍA EN DERECHO CORPORATIVO</a></li>
+          <li><a href="#titulo4">ASESORÍA EN DERECHO CIVIL</a></li>
+        </ul>
+    </div>
+
+
+
+
+
+      <div class="col c2">
+        <h2><span>HORARIO</span> DE ATENCIÓN</h2>
+        <h5 align="left">07:00 – 16:00 Horas 
+        <br>
+      En oficina de lunes a viernes. Fin de semana hacer cita.</h5>
+        
+      </div>
+
+
+      <div class="col c3">
+        <h2><span>CONTÁCTANOS</span> </h2>
+        <h5 align="left"><span>Dirección:</span> 7a. Avenida 15-13, Oficina 33, Edificio Ejecutivo, Zona 1, Guatemala, Guatemala.<br />
+          <br>
+          <span>Telefono:</span> +502-3423-3333<br />
+          <span>Oficina:</span> +502-2230-4687<br />
+          <span>Otro:</span> +502-4991-5158<br />
+          <span>E-mail:</span> <a href="#">otzoyleonel1@hotmail.com</a> </h5>
+      </div>
+
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      <p class="lf">@ALOS, <a href="#"> todos los derechos reservados 2020</a>.</p>
+      <p class="rf">Página diseñada <a href="https://www.instagram.com/otzoy_coronado/" target="_blank">@Otzoy_Coronado</a></p>
+      <div style="clear:both;"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
